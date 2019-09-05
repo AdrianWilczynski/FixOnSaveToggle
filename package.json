@@ -5,6 +5,10 @@
 	"icon": "img/icon.png",
 	"description": "Toggle formatting, fixing and import organizing on save.",
 	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AdrianWilczynski/FixOnSaveToggle.git"
+	},
 	"engines": {
 		"vscode": "^1.38.0"
 	},
