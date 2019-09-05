@@ -6,7 +6,7 @@ Toggle formatting, fixing and import organizing on save.
 
 ### Status bar toggle
 
-![Button](./img/button.png)
+![Button](img/button.png)
 
 ### Command
 
