@@ -1,13 +1,10 @@
-import * as _ from 'lodash';
 import * as vscode from 'vscode';
 import * as constants from './constants';
 import * as state from './state';
 import * as statusBarButton from './statusBarButton';
 
 export function activate(context: vscode.ExtensionContext) {
-	const debounced = _.debounce(toggle, 1500, { leading: true });
-
-	const command = vscode.commands.registerCommand(constants.command, debounced);
+	const command = vscode.commands.registerCommand(constants.command, toggle);
 
 	const button = statusBarButton.create();
 
